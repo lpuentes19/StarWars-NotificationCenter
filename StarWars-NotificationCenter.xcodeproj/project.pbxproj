@@ -11,6 +11,8 @@
 		95A619F31F37A7B000DB3538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A619F11F37A7B000DB3538 /* Main.storyboard */; };
 		95A619F51F37A7B000DB3538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A619F41F37A7B000DB3538 /* Assets.xcassets */; };
 		95A619F81F37A7B000DB3538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A619F61F37A7B000DB3538 /* LaunchScreen.storyboard */; };
+		95A61A011F37EBC900DB3538 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A61A001F37EBC900DB3538 /* MainViewController.swift */; };
+		95A61A031F37EF8E00DB3538 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A61A021F37EF8E00DB3538 /* SelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		95A619F41F37A7B000DB3538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95A619F71F37A7B000DB3538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A619F91F37A7B000DB3538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A61A001F37EBC900DB3538 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		95A61A021F37EF8E00DB3538 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				95A619F11F37A7B000DB3538 /* Main.storyboard */,
+				95A61A041F37EFBA00DB3538 /* ViewControllers */,
 				95A619FF1F37A85A00DB3538 /* Resources */,
 			);
 			path = "StarWars-NotificationCenter";
@@ -67,6 +72,15 @@
 				95A619F91F37A7B000DB3538 /* Info.plist */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		95A61A041F37EFBA00DB3538 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95A61A021F37EF8E00DB3538 /* SelectionViewController.swift */,
+				95A61A001F37EBC900DB3538 /* MainViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A619EE1F37A7B000DB3538 /* AppDelegate.swift in Sources */,
+				95A61A031F37EF8E00DB3538 /* SelectionViewController.swift in Sources */,
+				95A61A011F37EBC900DB3538 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
