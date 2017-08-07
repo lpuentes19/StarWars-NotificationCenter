@@ -45,6 +45,11 @@ class MainViewController: UIViewController {
         let isLight = notification.name == light
         let image = isLight ? UIImage(named: "yoda") : UIImage(named: "darthMaul")
         mainImageView.image = image
+        
+        mainImageView.layer.borderWidth = 1
+        mainImageView.layer.borderColor = UIColor.black.cgColor
+        mainImageView.layer.cornerRadius = mainImageView.frame.size.height/2
+        mainImageView.clipsToBounds = true
     }
     
     func updateCharacterNameLabel(notification: NSNotification) {
