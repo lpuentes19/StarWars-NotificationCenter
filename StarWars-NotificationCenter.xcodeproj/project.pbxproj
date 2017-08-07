@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		95A619EE1F37A7B000DB3538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A619ED1F37A7B000DB3538 /* AppDelegate.swift */; };
-		95A619F01F37A7B000DB3538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A619EF1F37A7B000DB3538 /* ViewController.swift */; };
 		95A619F31F37A7B000DB3538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A619F11F37A7B000DB3538 /* Main.storyboard */; };
 		95A619F51F37A7B000DB3538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A619F41F37A7B000DB3538 /* Assets.xcassets */; };
 		95A619F81F37A7B000DB3538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A619F61F37A7B000DB3538 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		95A619EA1F37A7B000DB3538 /* StarWars-NotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWars-NotificationCenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A619ED1F37A7B000DB3538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95A619EF1F37A7B000DB3538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95A619F21F37A7B000DB3538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95A619F41F37A7B000DB3538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95A619F71F37A7B000DB3538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,21 @@
 		95A619EC1F37A7B000DB3538 /* StarWars-NotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				95A619ED1F37A7B000DB3538 /* AppDelegate.swift */,
-				95A619EF1F37A7B000DB3538 /* ViewController.swift */,
 				95A619F11F37A7B000DB3538 /* Main.storyboard */,
+				95A619FF1F37A85A00DB3538 /* Resources */,
+			);
+			path = "StarWars-NotificationCenter";
+			sourceTree = "<group>";
+		};
+		95A619FF1F37A85A00DB3538 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95A619ED1F37A7B000DB3538 /* AppDelegate.swift */,
 				95A619F41F37A7B000DB3538 /* Assets.xcassets */,
 				95A619F61F37A7B000DB3538 /* LaunchScreen.storyboard */,
 				95A619F91F37A7B000DB3538 /* Info.plist */,
 			);
-			path = "StarWars-NotificationCenter";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95A619F01F37A7B000DB3538 /* ViewController.swift in Sources */,
 				95A619EE1F37A7B000DB3538 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
